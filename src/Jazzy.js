@@ -9,7 +9,7 @@ function App() {
         <title> create and delete list</title>
     </head>
     <body>
-        <header className="links ba pillfl w-100 .25rem">
+        <header className="links ba pill fl w-100 .25rem">
             <a href="google.com">Google</a>
             <a href="facebook.com">Facebook</a>
             <a href="instagram.com">Instagram</a>
@@ -17,7 +17,7 @@ function App() {
         </header>
         <p><h3> This App is just to mark and unmark, add and delete task on completion</h3></p><br></br>
         <p><h2>Add New Task Here</h2></p><br></br>
-        <input type="text" id="collectData" placeholder="Enter New Activity Here"></input>
+        <input className="pill" type="text" id="collectData" placeholder="Enter New Activity Here"></input>
         <input type="submit" id="add" placeholder="Enter"></input>
         </body>
           <a
